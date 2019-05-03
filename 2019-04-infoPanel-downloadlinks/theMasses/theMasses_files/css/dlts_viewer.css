@@ -637,28 +637,44 @@ html body.admin-menu {
     border-bottom: 1px solid #ccc;
     font-weight: bold;
     font-size: 1.1em;
-    margin: .5em 0;
-    padding: 0 0 .5em 0
+    margin: .7em 0;
+    padding: 0 0 .7em 0
 }
 
 .pagemeta .container .field-name-field-rights {
-    margin-top: .5em;
+    margin-top: .7em;
     border-top: 1px solid #ccc;
-    padding-top: .5em;
+    padding-top: 1em;
     font-size: .8em
 }
 
 .pagemeta .container .field .field-label {
     font-weight: bold
 }
-
-.pagemeta .container .field-name-field-pdf-file .field-item a:after {
-    content: ", ";
-    text-decoration: none;
-    color: #000;
-    margin-right: .2em
+.pagemeta .container .field-name-field-pdf-file {
+    margin-top: .7em;
+    border-top: 1px solid #ccc;
+    padding-top: .7em;
 }
+.pagemeta .container .field-name-field-pdf-file  .field-label {
+    display: block;
+}
+.pagemeta .container .field-name-field-pdf-file .field-item {
+    display: block;
+    line-height: 1.3;
+    margin: 3px 0;
+}
+.pagemeta .container .field-name-field-pdf-file .field-item a {
+    font-weight: bold;
 
+}
+.pagemeta .container .field-name-field-pdf-file .field-item a span{
+    font-weight: normal;
+    color: #333;
+    font-size:.9em;
+    white-space: nowrap;
+    display: block;
+}
 .pagemeta .container .field-name-field-pdf-file .field-item:last-child a:after {
     content: ""
 }
@@ -734,9 +750,9 @@ html body.admin-menu {
 }
 
 .pagemeta .container .field-type-link-field {
-    margin-top: .5em;
+    margin-top: .7em;
     border-top: 1px solid #ccc;
-    padding-top: .5em
+    padding-top: .7em
 }
 
 .pagemeta .field-name-field-notes-field .field-item {
